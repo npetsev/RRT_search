@@ -13,9 +13,9 @@ from rrt_search import RapidlyExploringRandomTree as rrt
     Example for running script:
         python rrt_main.py input.txt output.txt nodemax
     
-    input.txt     - input file that contains space geometry/constraints (e.g. triangle.txt)
+    input.txt     - input file that contains space geometry/constraints (e.g., triangle.txt)
     output.txt    - file where final tree nodes are dumped
-    nodemax       - number of nodes that final tree should contain
+    nodemax       - number of nodes that final tree should contain (e.g., 1000)
 """
 
 def count_nodes(X):
