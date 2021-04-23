@@ -1,6 +1,8 @@
 # RRT_search
 RAPIDLY-EXPLORING RANDOM TREE (RRT)
+
 Author: Nikolai Petsev
+
 
 DESCRIPTION:
 This program uses a rapidly-exploring random tree (RRT) algorithm to search a 2D space with 
@@ -10,6 +12,7 @@ iteratively sampling new states, and subsequently growing branches extending fro
 nodes towards these new states. After completing the RRT search, the program visualizes the generated 
 tree and corresponding Voronoi cells, and writes its nodes to a dump file.
 
+
 FILES:
 - constraints.py
 - lattice.py
@@ -17,11 +20,13 @@ FILES:
 - rrt_search.py
 - vertex.py
 
+
 REQUIREMENTS:
 - Python 3.0 or above
 - NumPy
 - Matplotlib
 - SciPy
+
 
 GETTING STARTED:
 The main program script is executed as:
