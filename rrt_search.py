@@ -5,11 +5,14 @@ class RapidlyExploringRandomTree:
         Rapidly-Exploring Random Tree engine
     """
 
-    def __init__(self, epsilon, growth_rate):
+    def __init__(self, epsilon, growth_rate, ndim):
         """
             epsilon - controls minimum allowed displacement from existing point
             growth_rate - controls maximum allowed displacement from point
-        """	    
+        """
+        # Check that we have 2D problem (note: higher dims can work without vertex cross check)
+        assert(ndim == 2)
+
         # Check that we have reasonable parameter choice
         assert(growth_rate > epsilon)
 

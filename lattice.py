@@ -12,9 +12,6 @@ class Lattice:
             xbins  - number of points/bins for each dimension
             ndim   - number of dimensions	    
         """
-        # Check that we have 2D problem (higher dims work without vertex cross check)
-        assert(ndim == 2)
-
         # Single-axis discretization
         x_axis = np.linspace(0.0, 1.0, num=xbins)
 

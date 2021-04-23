@@ -71,7 +71,7 @@ mylat = lat(xbins, ndim)
 myvtx = vtx(x0)
 
 # Initialize the RRT
-rrt_drive = rrt(epsilon, growth_rate)
+rrt_drive = rrt(epsilon, growth_rate, ndim)
 
 # Run RRT search
 print("Running RRT search... \nIn case of long runtimes, decrease growth rate.")
