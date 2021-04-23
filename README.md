@@ -34,9 +34,9 @@ The main program script is executed as:
 python rrt_main.py <input file> <output file> <nsamples>
   
 In this command:
-<input file> - name of file containing space/obstacle geometry
-<output file> - name of file for dumping final tree nodes
-<nodemax> - the number of nodes that the RRT should generate
+input file - name of file containing space/obstacle geometry
+output file - name of file for dumping final tree nodes
+nodemax - the number of nodes that the RRT should generate
   
 For example, we can generate a tree with 1000 nodes inside a triangular space using:
 
