@@ -1,0 +1,6 @@
+2
+0.0 0.0
+# Square space, bound x
+x[0] >= 0.0
+# Square space, bound y
+x[1] >= 0.0
