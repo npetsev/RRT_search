@@ -35,13 +35,13 @@ GETTING STARTED:
 
 The main program script is executed as:
 
-python rrt_main.py <input file> <output file> <nsamples>
+python rrt_main.py input_file output_file nsamples
   
 In this command:
 
-input file - name of file containing space/obstacle geometry
+input_file - name of file containing space/obstacle geometry
 
-output file - name of file for dumping final tree nodes
+output_file - name of file for dumping final tree nodes
 
 nodemax - the number of nodes that the RRT should generate
 
