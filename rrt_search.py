@@ -48,10 +48,6 @@ class RapidlyExploringRandomTree:
         deltaX /= dX_mag
         deltaX *= self.growth_rate
 
-        # Cap maximum displacement at growth rate	
-        fac = dX_mag
-        if (dx > self.growth_rate): fac = self.growth_rate
-
         # Identify boundary, skip displacement attempt if no boundary found
         check1, xnew = c_obj.find_boundary(xnear, deltaX, self.growth_rate, self.epsilon)
         if not check1: return vcount
