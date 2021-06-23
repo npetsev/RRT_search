@@ -35,7 +35,7 @@ GETTING STARTED:
 
 The main program script is executed as:
 
-python rrt_main.py input_file output_file nsamples
+>> python rrt_main.py input_file output_file nsamples
   
 In this command:
 
